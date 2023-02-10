@@ -1,6 +1,12 @@
 # Monitoring CO2
 
-Build in progress...
+**This organisation regroups all codes used in the Monitoring CO2 project, from the microcontroller to the backend, as well as the PCB and 3D models.**
+
+![Main image](https://raw.githubusercontent.com/Monitoring-CO2/.github/main/images/Full_front.jpg)
+
+## Full system diagram
+
+![Diagram](https://raw.githubusercontent.com/Monitoring-CO2/.github/main/images/Full_diagram.png)
 
 ## Payload format
 
@@ -23,7 +29,7 @@ It consists of two bytes of "header" and N\*8 bytes for all messages.
 ### Messages
 
 - The first 4 bytes consists of the message timestamp in the Unix format in seconds [example](https://www.epochconverter.com/)
-- The temperature is sent as the following : (current_temperature + 25) * 10 °C
+- The temperature is sent as the following : (current_temperature + 25) * 10
 - The humidity is sent as the following : current_humidity
 - The CO2 is sent as the following : current_co2 / 10
 - The motion is sent as the following : current_motion_prob * 15
