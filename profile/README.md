@@ -4,6 +4,16 @@
 
 ![Main image](https://raw.githubusercontent.com/Monitoring-CO2/.github/main/images/Full_front.jpg)
 
+## Software
+
+- **[Arduino-full](https://github.com/Monitoring-CO2/Arduino-full)** : Full sensor microcontroller program
+- **[Backend-server](https://github.com/Monitoring-CO2/Backend-server)** : Backend Web server
+
+## Hardware
+
+- **[PCB]()** : Schematic for the sensor's PCB
+- **[3D-modules](https://github.com/Monitoring-CO2/3D-modules)** : All 3D models for the sensor
+
 ## Full system diagram
 
 ![Diagram](https://raw.githubusercontent.com/Monitoring-CO2/.github/main/images/Full_diagram.png)
