@@ -10,7 +10,7 @@ Currently, the payload is encrypted/decrypted as following :
 
 ![Payload](https://raw.githubusercontent.com/Monitoring-CO2/.github/main/images/payload.jpg)
 
-It consists of two bytes of "header" and N*8 messages.
+It consists of two bytes of "header" and N\*8 bytes for all messages.
 
 ### Header
 
@@ -20,9 +20,9 @@ It consists of two bytes of "header" and N*8 messages.
   This is equal to (current_battery_voltage - 2.5) * 100  
   For example 4.15V battery will send 0xA5
   
-### Message
+### Messages
 
-- The first 4 bytes consists of the current timestamp in the Unix format in seconds [example](https://www.epochconverter.com/)
+- The first 4 bytes consists of the message timestamp in the Unix format in seconds [example](https://www.epochconverter.com/)
 - The temperature is sent as the following : (current_temperature + 25) * 10 °C
 - The humidity is sent as the following : current_humidity
 - The CO2 is sent as the following : current_co2 / 10
