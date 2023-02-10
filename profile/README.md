@@ -8,6 +8,7 @@
 
 - **[Arduino-full](https://github.com/Monitoring-CO2/Arduino-full)** : Full sensor microcontroller program
 - **[Backend-server](https://github.com/Monitoring-CO2/Backend-server)** : Backend Web server
+- **[Server-Docker](https://github.com/Monitoring-CO2/Server-Docker)** : Docker compose for the backend Web server
 
 ## Hardware
 
@@ -17,6 +18,10 @@
 ## Full system diagram
 
 ![Diagram](https://raw.githubusercontent.com/Monitoring-CO2/.github/main/images/Full_diagram.png)
+
+## How to set up the project's backend
+
+In order to set up the Monitoring CO2's backend, please read the [deploy guide](https://github.com/Monitoring-CO2/Server-Docker#how-to-deploy).
 
 ## Payload format
 
