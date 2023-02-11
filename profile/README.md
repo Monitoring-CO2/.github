@@ -4,6 +4,10 @@
 
 ![Main image](https://raw.githubusercontent.com/Monitoring-CO2/.github/main/images/Full_front.jpg)
 
+## [Presentation video](https://www.youtube.com/watch?v=M2izvQClWJk)
+
+Watch the presentation video [here](https://www.youtube.com/watch?v=M2izvQClWJk) (in French).
+
 ## Software
 
 - **[Arduino-full](https://github.com/Monitoring-CO2/Arduino-full)** : Full sensor microcontroller program
